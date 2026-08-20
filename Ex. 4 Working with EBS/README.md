@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: LAKSHMIDHAR N
+* **Register Number**: 212224230138
+* **Date of Submission**: 20.08.2026
 
 ---
 
@@ -78,13 +78,17 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+
+Attached the EBS volume to the EC2 instance and checked the available storage.
+
+Created an ext3 file system on the new volume and mounted it at /mnt/data-store.
+
+Created a file on the volume, added text to it, and verified the data.
+
+Created an EBS snapshot, deleted the original file, and created a new volume from the snapshot.
+
+Attached and mounted the restored volume at /mnt/data-store2 and verified that file.txt was successfully restored.
 
 ---
 
@@ -92,19 +96,23 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1917" height="916" alt="image" src="https://github.com/user-attachments/assets/677ea035-9094-4b7b-be8d-53bde3cdec58" />
+
+
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+  <img width="1914" height="857" alt="image" src="https://github.com/user-attachments/assets/b653476b-8f28-456f-9baf-4f2876ac4c03" />
+
 
 ---
 
-### Screenshot 3: Mounted Volume with Data
+  ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1443" height="714" alt="image" src="https://github.com/user-attachments/assets/38b33b32-08d4-4e72-b40b-2ec117b3ed37" />
+
 
 ---
 
